@@ -75,3 +75,6 @@ URL du web service d'ElasticSearch : http://localhost:9200/_plugin/head/
 ### Récupérer un type JSON avec la méthode GET
 ![](https://github.com/ctith/ElasticSearch/blob/master/ElasticSearch-screen/2018-03-26%2014_52_58-elasticsearch-head.png)
 ![](https://github.com/ctith/ElasticSearch/blob/master/ElasticSearch-screen/2018-03-26%2014_52_23-elasticsearch-head.png)
+
+### Faire des requêtes
+![](https://github.com/ctith/ElasticSearch/blob/master/ElasticSearch-screen/2018-03-26%2015_09_08-elasticsearch-head.png)
