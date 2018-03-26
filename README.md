@@ -58,5 +58,5 @@ Installed head into C:\elasticsearch-2.4.6\plugins\head
 ```
 
 Vérifier que le plugin a bien été installé dans **C:\elasticsearch-2.4.6\plugins\head\_site**
-> http://localhost:9200/_plugin/head/
+> URL du web service d'ElasticSearch : http://localhost:9200/_plugin/head/
 
