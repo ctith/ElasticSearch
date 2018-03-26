@@ -128,11 +128,12 @@ GET /_all/_search?q=titre:action
 
 ### Recherche sur tous les index commençant par "lib" sauf "library"
 ```shell
-GET /+lib*,-library/_search?q=venus
+GET /bib*,-bibliotheque/_search?q=Gary
 ```
-![]()
+> même résultat que précédemment
 
 ---------------------
 # Interface Web Service Kibana
 URL du web service de Kibana : http://localhost:5601/app/sense
 
+![](https://github.com/ctith/ElasticSearch/blob/master/ElasticSearch-screen/2018-03-26%2016_52_55-Sense%20-%20Kibana.png)
