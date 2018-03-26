@@ -1,4 +1,4 @@
-# Interface Web Service 
+# Interface Web Service ElasticSearch
 URL du web service d'ElasticSearch : http://localhost:9200/_plugin/head/
 
 ## Créer un index
@@ -131,3 +131,8 @@ GET /_all/_search?q=titre:action
 GET /+lib*,-library/_search?q=venus
 ```
 ![]()
+
+---------------------
+# Interface Web Service Kibana
+URL du web service de Kibana : http://localhost:5601/app/sense
+
