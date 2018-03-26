@@ -24,6 +24,7 @@ node.name	:	noeud0
 Démarrer	Elasticsearch 
 ```shell
 ctith@L50T-048:/mnt/c/elasticsearch-2.4.6/bin$ ./elasticsearch
+
 [2018-03-26 12:01:52,955][WARN ][bootstrap                ] unable to install syscall filter: seccomp unavailable: CONFIG_SECCOMP not compiled into kernel, CONFIG_SECCOMP and CONFIG_SECCOMP_FILTER are needed
 [2018-03-26 12:01:53,229][INFO ][node                     ] [Gazelle] version[2.4.6], pid[360], build[5376dca/2017-07-18T12:17:44Z]
 [2018-03-26 12:01:53,230][INFO ][node                     ] [Gazelle] initializing ...
@@ -47,6 +48,7 @@ ctith@L50T-048:/mnt/c/elasticsearch-2.4.6/bin$ ./elasticsearch
 Installer le plugin ElasticSearch-Head
 ```shell
 C:\elasticsearch-2.4.6>bin\plugin install mobz/elasticsearch-head
+
 -> Installing mobz/elasticsearch-head...
 Trying https://github.com/mobz/elasticsearch-head/archive/master.zip ...
 Downloading .............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................DONE
