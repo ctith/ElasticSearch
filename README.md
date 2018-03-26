@@ -45,7 +45,10 @@ ctith@L50T-048:/mnt/c/elasticsearch-2.4.6/bin$ ./elasticsearch
 [2018-03-26 12:03:35,522][INFO ][node                     ] [Gazelle] closing ...
 [2018-03-26 12:03:35,529][INFO ][node                     ] [Gazelle] closed
 ```
-Installer le plugin ElasticSearch-Head
+
+### Installer le plugin ElasticSearch-Head
+L'API	Rest/JSON	d'Elasticsearch	nécessite	l'installation	d'un	client	Rest.	Ce	client peut-être	le	plugin	"Elasticsearch	Head",	cUrl,	RestConsole	ou	un	autre	outil	similaire. 
+
 ```shell
 C:\elasticsearch-2.4.6>bin\plugin install mobz/elasticsearch-head
 
