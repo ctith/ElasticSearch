@@ -57,12 +57,12 @@
 ```
 ```json
 {
-"code": "S24_3371",
-"nom": "1971 Alpine Renault 1600s",
-"echelle": "1:24",
-"fournisseur": "Welly Diecast Productions",
-"stock": 7995,
-"prix": 38.58,
-"devise": "EUR"
+  "code": "S24_3371",
+  "nom": "1971 Alpine Renault 1600s",
+  "echelle": "1:24",
+  "fournisseur": "Welly Diecast Productions",
+  "stock": 7995,
+  "prix": 38.58,
+  "devise": "EUR"
 }
 ```
