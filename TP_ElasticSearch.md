@@ -31,7 +31,7 @@ GET /bibliotheque/_search?q=auteurs.nom:dalton
 ![](https://github.com/ctith/ElasticSearch/blob/master/ElasticSearch-screen/2018-03-26%2015_33_42-elasticsearch-head.png)
 
 -------------
-Recherche sur plusieurs champs : * = n'importe quel élément après auteur qui vaut templier
+### Recherche sur plusieurs champs : * = n'importe quel élément après auteur qui vaut templier
 ```shell
 GET /bibliotheque/_search?q=auteurs.\*:templier
 ```
@@ -43,7 +43,7 @@ GET /bibliotheque/_search?q=\*.nom:d*
 ![](https://github.com/ctith/ElasticSearch/blob/master/ElasticSearch-screen/2018-03-26%2015_47_14-elasticsearch-head.png)
 
 --------------
-Recherche sur deux index
+### Recherche sur deux index
 ```shell
 GET /bibliotheque/livre,dvd/_search?q=titre:action
 ```
@@ -122,13 +122,13 @@ GET /bibliotheque1,bibliotheque2/livre,dvd/_search?q=titre:action
 ```
 
 ---------------------
-Recherche sur tous les index
+### Recherche sur tous les index
 ```shell
 GET /_all/_search?q=titre:action
 ```
 > même résultat que précédemment
 
-Recherche sur tous les index commençant par "lib" sauf "library"
+### Recherche sur tous les index commençant par "lib" sauf "library"
 ```shell
 GET /+lib*,-library/_search?q=venus
 ```
