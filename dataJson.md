@@ -1,14 +1,26 @@
 # bibliotheque/livre
 ```json
-{"titre": "Spring Batch in Action",
-"auteurs" : [
-{"prenom": "Arnaud", "nom": "Cogoluegnes"},
-{"prenom": "Thierry", "nom": "Templier"},
-{"prenom": "Gary", "nom": "Gregory"}],
-"prix": 59.99,
-"devise" : "USD",
-"publication": "2011-10",
-"langue": "en_US"}
+{
+  "titre": "Spring Batch in Action",
+  "auteurs": [
+    {
+      "prenom": "Arnaud",
+      "nom": "Cogoluegnes"
+    },
+    {
+      "prenom": "Thierry",
+      "nom": "Templier"
+    },
+    {
+      "prenom": "Gary",
+      "nom": "Gregory"
+    }
+  ],
+  "prix": 59.99,
+  "devise": "USD",
+  "publication": "2011-10",
+  "langue": "en_US"
+}
 ```
 
 # bibliotheque/dvd/
