@@ -56,3 +56,7 @@ Verifying https://github.com/mobz/elasticsearch-head/archive/master.zip checksum
 NOTE: Unable to verify checksum for downloaded plugin (unable to find .sha1 or .md5 file to verify)
 Installed head into C:\elasticsearch-2.4.6\plugins\head
 ```
+
+Vérifier que le plugin a bien été installé dans **C:\elasticsearch-2.4.6\plugins\head\_site**
+> http://localhost:9200/_plugin/head/
+
