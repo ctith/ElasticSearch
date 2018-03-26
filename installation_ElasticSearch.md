@@ -59,3 +59,23 @@ Installed head into C:\elasticsearch-2.4.6\plugins\head
 ```
 
 Vérifier que le plugin a bien été installé dans **C:\elasticsearch-2.4.6\plugins\head\_site**
+
+## Installer Kibana et le plugin Sense
+
+### Kibana
+Extraire dans C:\kibana-4.4.1-linux-x64
+
+### Installer le plugin Sense dans Kibana
+```shell
+ctith@L50T-048:/mnt/c/kibana-4.4.1-linux-x64$ ./bin/kibana plugin --install elastic/sense
+
+Installing sense
+Attempting to transfer from https://download.elastic.co/elastic/sense/sense-latest.tar.gz
+Transferring 1386775 bytes....................
+Transfer complete
+Extracting plugin archive
+Extraction complete
+Optimizing and caching browser bundles...
+Plugin installation complete
+
+```
