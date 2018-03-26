@@ -43,7 +43,9 @@ Recherche sur plusieurs champs : * = n'importe quel élément après auteur qui 
 ```shell
 GET /bibliotheque/_search?q=auteurs.\*:templier
 ```
+![](https://github.com/ctith/ElasticSearch/blob/master/ElasticSearch-screen/2018-03-26%2015_46_53-elasticsearch-head.png)
 
 ```shell
 GET /bibliotheque/_search?q=\*.nom:d*
 ```
+![](https://github.com/ctith/ElasticSearch/blob/master/ElasticSearch-screen/2018-03-26%2015_47_14-elasticsearch-head.png)
