@@ -52,14 +52,81 @@ GET /bibliotheque/livre,dvd/_search?q=titre:action
 ```shell
 GET /bibliotheque1,bibliotheque2/livre,dvd/_search?q=titre:action
 ```
-![]()
+```json
+{
+	"took": 8,
+	"timed_out": false,
+	"_shards": {
+		"total": 10,
+		"successful": 10,
+		"failed": 0
+	},
+	"hits": {
+		"total": 2,
+		"max_score": 0.5,
+		"hits": [{
+				"_index": "bibliotheque1",
+				"_type": "livre",
+				"_id": "1",
+				"_score": 0.5,
+				"_source": {
+					"titre": "Spring Batch in Action",
+					"auteurs": [{
+							"prenom": "Arnaud",
+							"nom": "Cogoluegnes"
+						},
+						{
+							"prenom": "Thierry",
+							"nom": "Templier"
+						},
+						{
+							"prenom": "Gary",
+							"nom": "Gregory"
+						}
+					],
+					"prix": 59.99,
+					"devise": "USD",
+					"publication": "2011-10",
+					"langue": "en_US"
+				}
+			},
+			{
+				"_index": "bibliotheque2",
+				"_type": "livre",
+				"_id": "1",
+				"_score": 0.5,
+				"_source": {
+					"titre": "Spring Batch in Action",
+					"auteurs": [{
+							"prenom": "Arnaud",
+							"nom": "Cogoluegnes"
+						},
+						{
+							"prenom": "Thierry",
+							"nom": "Templier"
+						},
+						{
+							"prenom": "Gary",
+							"nom": "Gregory"
+						}
+					],
+					"prix": 59.99,
+					"devise": "USD",
+					"publication": "2011-10",
+					"langue": "en_US"
+				}
+			}
+		]
+	}
+}
+```
 
 ---------------------
 Recherche sur tous les index
 ```shell
 GET /_all/_search?q=titre:action
 ```
-![]()
+> même résultat que précédemment
 
 Recherche sur tous les index commençant par "lib" sauf "library"
 ```shell
