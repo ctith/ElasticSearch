@@ -60,6 +60,8 @@ Installed head into C:\elasticsearch-2.4.6\plugins\head
 
 Vérifier que le plugin a bien été installé dans **C:\elasticsearch-2.4.6\plugins\head\_site**
 
+> URL du web service d'ElasticSearch : http://localhost:9200/_plugin/head/
+
 ## Installer Kibana et le plugin Sense
 
 ### Kibana
@@ -79,3 +81,4 @@ Optimizing and caching browser bundles...
 Plugin installation complete
 
 ```
+> URL du web service de Kibana : http://localhost:5601/app/sense
