@@ -2,7 +2,7 @@
 URL du web service d'ElasticSearch : http://localhost:9200/_plugin/head/
 
 ## Créer un index
-```shell
+```json
 PUT /bibliotheque/
 {
 	"settings": { 
