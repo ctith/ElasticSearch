@@ -20,6 +20,12 @@ Dans config > elasticsearch.yml
 # Use a descriptive name for the node:
 #
  node.name: noeud0, noeud1
+ 
+# ---------------------------------- Various -----------------------------------
+#
+# Disable starting multiple nodes on a single system:
+#
+ node.max_local_storage_nodes: 2
 ```
 Pour l'index zenika :
 > Nombre de shards :
