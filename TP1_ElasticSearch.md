@@ -39,7 +39,9 @@ DELETE /*
 ## Insérer un type JSON avec la méthode PUT : [JSON ici](https://github.com/ctith/ElasticSearch/blob/master/dataJson.md)
 
 **PUT HTTP** : on peut indexer un doc en précisant l'identifiant unique du document
-
+**PUT MAJ** : MAJ un doc consiste à réindexer le doc, ce qui nécessite de connaître son identifiant.
+- incrémente le numéro de version automatiquement
+- annule et remplace la version précédente du document
 **POST HTTP** : on peut indexer un doc en laissant elasticsearch générer automatiquement un id
 
 ![](https://github.com/ctith/ElasticSearch/blob/master/ElasticSearch-screen/2018-03-26%2014_40_57-elasticsearch-head.png)
