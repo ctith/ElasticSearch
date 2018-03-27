@@ -22,7 +22,18 @@
   "langue": "en_US"
 }
 ```
-
+```json
+{
+  "titre": "7 ans après...",
+  "auteurs": [
+    {
+      "prenom": "Guillaume",
+      "nom": "Musso"
+    }
+  ],
+  "prix": 20.80
+}
+```
 # bibliotheque/dvd/
 ```json
 {
