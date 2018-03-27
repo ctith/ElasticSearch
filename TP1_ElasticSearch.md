@@ -2,8 +2,9 @@
 URL du web service d'ElasticSearch : http://localhost:9200/_plugin/head/
 
 ## Créer un index
+MAJ des **settings** d'un index avec l'API REST "update settings"
 ```json
-PUT /bibliotheque/
+PUT /bibliotheque/_settings
 {
 	"settings": { 
 		"index": {
@@ -14,6 +15,26 @@ PUT /bibliotheque/
 }
 ```
 ![](https://github.com/ctith/ElasticSearch/blob/master/ElasticSearch-screen/2018-03-26%2014_47_39-elasticsearch-head.png)
+
+## Modifier un index
+MAJ des **settings** d'un index avec l'API REST "update settings"
+```json
+PUT /bibliotheque/_settings
+{
+	"index": { 
+		"number_of_replicas": 6,
+		"refresh_interval": "30s"
+	}
+}
+```
+## Supprimer un ou plusieurs index
+Possible d'interdire la suppresion des index dans fichiers de config
+```json
+DELETE /bibliotheque/
+DELETE /bibliotheque1, bibliotheque2,/
+DELETE /_all 
+DELETE /*
+```
 -------------------
 ## Insérer un type JSON avec la méthode PUT : [JSON ici](https://github.com/ctith/ElasticSearch/blob/master/dataJson.md)
 ![](https://github.com/ctith/ElasticSearch/blob/master/ElasticSearch-screen/2018-03-26%2014_40_57-elasticsearch-head.png)
