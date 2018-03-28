@@ -51,7 +51,7 @@ ctith@L50T-048:/mnt/c/elasticsearch-2.4.6$ ./bin/elasticsearch
 L'API	Rest/JSON	d'Elasticsearch	nécessite	l'installation	d'un	client	Rest.	Ce	client peut-être	le	plugin	"Elasticsearch	Head",	cUrl,	RestConsole	ou	un	autre	outil	similaire. 
 
 ```shell
-C:\elasticsearch-2.4.6>bin\plugin install mobz/elasticsearch-head
+C:\elasticsearch-2.4.6>bin/plugin install mobz/elasticsearch-head
 
 -> Installing mobz/elasticsearch-head...
 Trying https://github.com/mobz/elasticsearch-head/archive/master.zip ...
