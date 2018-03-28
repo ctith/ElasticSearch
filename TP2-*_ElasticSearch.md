@@ -61,7 +61,7 @@ PUT /data/produit
                        },   
         "nom":         {  "type": "string",
                           "index": "analyzed",
-                          "properties" : {                           
+                          "original" : {                           
                                  "type": "string",
                                  "index": "not_analyzed"
                            },
