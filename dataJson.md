@@ -77,3 +77,14 @@
   "devise": "EUR"
 }
 ```
+```json
+{
+  "code": "S24_3191",
+  "nom": "1969 Chevrolet Camaro Z28",
+  "echelle": "1:24",
+  "fournisseur": "Exoto Designs",
+  "stock": 4695,
+  "prix": 50.51,
+  "devise": "EU"
+}
+```
