@@ -38,6 +38,13 @@ PUT /data0/produit/2?version=2
 # TP3 : Mapping
 
 ## Créer dans l'index data un mapping pour le type de document produit
+- Les champs code , echelle et devise sont de type string non analysé
+- Le champ fournisseur est de type string analysé, il a pour valeur par défaut "Inconnu"
+- Le champ nom est de type multiple avec un champ par défaut de type string analysé et un champ original de type string non analysé
+- Le champ stock et prix sont de type numérique
+- Seul le champ nom est inclus dans le champ _all
+- Les champs nom , code et fournisseur sont stockés.
+
 ```shell
 PUT /data/produit
 {
@@ -74,4 +81,9 @@ PUT /data/produit
     }
   }
 }
+```
+
+Vérifier que le mapping a bien été créé
+```json
+GET /data/_mapping
 ```
